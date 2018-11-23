@@ -2,7 +2,7 @@ import xlrd
 import os
 from shutil import copy
 
-treshold=20
+treshold=21
 number_of_pict=treshold
 
 src=os.path.dirname(__file__)+"\\all_pict"
@@ -26,3 +26,6 @@ for Nrow in range(1,500):
                 print("Unable to copy file. %s" % e)
             except:
                 print("Unexpected error:", sys.exc_info())
+
+
+# TEST FOR GIT
